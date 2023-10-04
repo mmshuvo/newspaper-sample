@@ -96,15 +96,15 @@
           <p class="form__p">Fill up the form bellow contact us!</p>
           <div class="form">
             <div class="input">
-              <input type="text" name="fname" id="flname" />
+              <input type="text" name="fname" id="flname" required />
               <span>Full Name</span>
             </div>
             <div class="input">
-              <input type="email" name="email" id="email" />
-              <span>You Email</span>
+              <input type="text" name="email" id="email" required />
+              <span>Your Email</span>
             </div>
             <div class="input">
-              <input type="text" name="phone" id="phone" />
+              <input type="text" name="phone" id="phone" required />
               <span>Your Phone Number</span>
             </div>
             <div class="input">
@@ -113,6 +113,7 @@
                 id="message"
                 cols="20"
                 rows="5"
+                required
               ></textarea>
               <span>Your Message</span>
             </div>
